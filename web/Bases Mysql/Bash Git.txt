@@ -1,0 +1,45 @@
+Comandos para poder crear un espacio de trabajo en git 
+pwd
+mdkir workspace 
+mkdir workspace
+git init //Iniciar el espacio de trabajo 
+
+Comando Funcionales
+cd 
+cd ..
+pwd
+ls //arhivos dentro de nuestra carpeta
+clear
+code . //abre la carpera
+
+
+
+#Comando para realizar los cambios de los archivos modificados
+git add *.() //Todos los archivos con esa terminacion
+git status
+git status -s
+git add . //Agrega todo
+git commit -m"" //comprometer un archivo y poner un mensaje
+git commit //solo comprometerlo y el mensaje se pone en el editor de texto 
+git rm //para eliminar un archivo
+
+//Restaurar un archivo 
+git restore --staged 
+git restore ().txt
+mv //mover
+git mv ().txt ().txt //renombre automatico
+
+//Ignorar
+Creamos un archivo el cual se llamara .gitignore
+Dentro de este colocamos la ruta de los archivos que queremos ignorar
+
+//Visualizar cambios
+git diff
+git diff --staged
+
+//Historial de cambios 
+git log --oneline
+
+/Saber que rama estamos 
+git branch
+cat chekout -b "Nombre que le queremos dar a la rama"
